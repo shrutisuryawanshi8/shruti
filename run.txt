@@ -1,0 +1,38 @@
+INSTRUCTIONS TO RUN THE AI RESUME ANALYZER WEBSITE:
+
+1. Make sure you have Node.js installed on your computer
+   Download from: https://nodejs.org/
+
+2. Place all files in the same folder:
+   - index.html
+   - dashboard.html
+   - style.css
+   - script.js
+   - server.js
+   - package.json
+
+3. Open terminal/command prompt in this folder
+
+4. Install dependencies:
+   npm install
+
+5. Start the server:
+   npm start
+
+6. Open your browser and go to:
+   http://localhost:3000
+
+7. To access the dashboard directly:
+   http://localhost:3000/dashboard
+
+8. To stop the server, press Ctrl+C in the terminal
+
+Additional Notes:
+- Click "Upload Resume Now →" on the homepage to go to dashboard
+- On dashboard, click "Choose File" to simulate resume upload
+- The AI will "analyze" your resume and show skills/job matches
+- Click "Apply Now" on any job to see the functionality
+- The website is fully responsive for mobile devices
+
+For development with auto-restart:
+   npm run dev
